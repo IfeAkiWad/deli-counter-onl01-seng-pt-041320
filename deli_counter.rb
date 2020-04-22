@@ -19,7 +19,7 @@ end
 # counter = 1
 #   if katz_deli == 0
 #     katz_deli.each do |name|
-#     counter += 1  
+#     counter += 1
 #     end
 #     puts "Welcome, #{name}. You are number #{counter} in line."
 #   end
