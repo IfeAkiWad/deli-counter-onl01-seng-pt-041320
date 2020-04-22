@@ -36,6 +36,5 @@ def now_serving(name)
   elsif katz.length >= 1
     puts "Currently serving #{katz_deli[0]}."
     katz_deli.shift()
-
   end
 end
