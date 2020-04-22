@@ -14,15 +14,20 @@ def line(katz_deli)
   end
 end
 
+# def take_a_number(katz_deli, name)
+# katz_deli = []
+# counter = 1
+#   if katz_deli == 0
+#     katz_deli.each do |name|
+#     counter += 1  
+#     end
+#     puts "Welcome, #{name}. You are number #{counter} in line."
+#   end
+# end
+
 def take_a_number(katz_deli, name)
-katz_deli = []
-counter = 1
-  if katz_deli == 0
-    katz_deli.each do |name|
-    counter += 1  
-    end
-    puts "Welcome, #{name}. You are number #{counter} in line."
-  end
+ katz_deli << name
+ puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 end
 
 def now_serving(name)
