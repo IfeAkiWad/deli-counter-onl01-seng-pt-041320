@@ -33,8 +33,8 @@ end
 def now_serving(name)
   if katz_deli.length == 0
     puts "There is nobody waiting to be served!"
-  elsif katz.length >= 1
-    puts "Currently serving #{name}."
-    katz_deli.shift()
+  else katz.length >= 1
+    puts "Currently serving #{katz_deli[0]}."
+      katz_deli.shift()
   end
 end
