@@ -15,8 +15,14 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-katz_deli = ["#{name}"]
-
+katz_deli = []
+counter =
+  if condition
+    katz_deli.each do
+    counter += 1  
+    end
+    puts "Welcome, #{name}. You are number #{counter} in line."
+  end
 end
 
 def now_serving(name)
