@@ -6,6 +6,10 @@ def line(katz_deli)
  elsif katz_deli.length >= 1
    new_array = []
    counter = 1
+   katz_deli.each do |name|
+     new_array << ("#{Counter}, #{name}")
+
+   end
 
 
 
